@@ -13,7 +13,8 @@ Array.from(buttons).forEach((button) => {
         string = eval(string);
         document.getElementById("input-text").value = string;
         string = "";
-      } else {
+      }  
+      else {
         string = string + e.target.innerHTML;
         document.getElementById("input-text").value = string;
       }
